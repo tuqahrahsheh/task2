@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-5</title>
+    <style>
+        
+        * {
+        box-sizing: border-box;
+          }
+        .header{
+            background-image: url("1tttt.jpg");
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding: 100px;
+        }
+        .section1{
+            text-align: center;
+        }
+        .container{
+            display: inline-flex;
+            background-color: gray;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            justify-content: center;
+        }
+        .one{
+            border: solid black 2px;
+            width: 250px;
+            height: 600px;
+            margin-left: 10px;
+            position: relative;
+            text-align: center;
+            padding: 10px;
+            background-color: white;
+        }
+        .img1{
+            width: 195px;
+            height: 40%;
+        }
+        .parent {
+                width: 100%;
+                height: 200px;
+                text-align: center;
+                display: flex;                
+            }
+        .about{
+               background-color: darkslategrey;
+                color: white;
+                align-content: center;
+                width: 50%;
+            }
+        .contact{
+                background-color: blue;
+                color: white;
+                align-content: center;
+                width: 50%;
+            }
+        @media only screen and (max-width: 500px) {
+            /* For Phone: */
+
+            .container {
+                display: inline-flex;
+                background-color: gray;
+                width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .header {
+                background-image: url(4.jfif);
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                height: fit-content;
+                width: 100%;
+            }
+        
+        }
+          @media only screen and (max-width: 800px) {
+             /* For tablet: */
+         
+            .container {
+                display: inline-flex;
+                background-color: gray;
+                width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .foot{
+                position: fixed;
+                color: blue;
+            }
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Welcome To Resonsive Web</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum repellat aut quis veniam est voluptatibus enim odio vitae eius debitis consectetur velit aliquid excepturi, 
+            dolorem dicta officia perferendis ipsa tempore.</p>
+            <input type="button" value="Read More" style="background-color: rgb(39, 38, 38); color: white; padding: 10px 15px ;
+            ">
+    </div>
+    <section class="section1">
+        <h2>Resonsive Web Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum fugiat laborum praesentium officiis cupiditate,
+             consequatur error itaque minus, quae laboriosam. Excepturi quidem est laborum quam earum dignissimos repudiandae minus?</p>
+    </section>
+<div class="container">
+    <div class="one">
+        
+        <img class="img1" src="2t.jpg">
+        <br><br>
+        <h3>Why Responsiv ?</h3>
+        <p style="font-size: larger;font-family: Arial, Helvetica, sans-serif;">
+            The idea of reaching the North Pole by means of baloons appears to have been entertained
+             many years ago.
+        </p>
+    </div>
+    <div class="one">
+        
+        <img class="img1" src="3t.jpg">
+        <br><br>
+        <h3>Same Expereance Every where</h3>
+        <p style="font-size: larger;font-family: Arial, Helvetica, sans-serif;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt nisi ad nemo, laborum tempore soluta voluptas optio vitae ab,
+        </p>
+    </div>
+    <div class="one">
+        
+        <img class="img1" src="4t.jpg">
+        <br><br>
+        <h3>Improve your accisspility</h3>
+        <p style="font-size: larger;font-family: Arial, Helvetica, sans-serif;">
+            In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a suggestion for reaching the North Pole by an aerostat.
+        </p>
+    </div>
+</div>
+<section class="section1">
+    <h2>Resonsive Web Development</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Numquam eum fugiat laborum praesentium officiis cupiditate,
+         consequatur error itaque minus, quae laboriosam. Excepturi quidem est laborum quam earum dignissimos 
+         repudiandae minus?</p>
+</section>
+<div class="parent">
+    <div class="contact">
+        <h3>Contact Us</h3>
+        <p>
+            Consectetur adipisicing elit. Esse, 
+            doloribus possimus voluptatum, 
+            laudantium est incidunt?
+        </p>
+        <a href="info@webresponsive.com" style="color: white;">info@webresponsive.com</a>
+    </div>
+    <div class="about">
+    <h3>About Us</h3>
+    <p>Esse, doloribus possimus voluptatum, laudantium est
+        incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+    <a href="www.webresponsive.com" style="color: white;">www.webresponsive.com</a>
+    <footer>Lorem ipsum dolor it<br class="foot" > Essa,domjkhc possiums</footer>
+</div>
+</body>
+</html>
